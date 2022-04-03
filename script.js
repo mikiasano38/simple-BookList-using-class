@@ -23,7 +23,7 @@ class UI {
 
     deleteBook(target) {
         if(target.classList.contains("delete")) {
-            target.parentElement.parentElement.remove();
+            target.parentElement.remove();
         }
     }
 
